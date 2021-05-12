@@ -1,0 +1,13 @@
+{
+  "Name": "{{GremlinContractTestReleaseName}}",
+  "ID": "{{GremlinrContractTestID}}",
+  "RoleArn": "{{GremlinContractTestHelmRoleArn}}",
+  "Namespace": "gremlin",
+  "Values": {
+    "gremlin.secret.managed": "true",
+    "gremlin.secret.type": "secret",
+    "gremlin.secret.teamID": "YOUR-TEAM-ID",
+    "gremlin.secret.clusterID": "YOUR-CLUSTER-ID",
+    "gremlin.secret.teamSecret": "YOUR-TEAM-SECRET"
+  }
+}
