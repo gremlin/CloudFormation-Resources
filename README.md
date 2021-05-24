@@ -1,1 +1,1 @@
-# Gremlin::Gremlin::Agent
+# Gremlin::Agent::Helm

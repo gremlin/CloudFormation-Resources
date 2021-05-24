@@ -1,4 +1,4 @@
-# Gremlin::Gremlin::Agent Values
+# Gremlin::Agent::Helm Values
 
 Custom Values can optionally be specified
 

@@ -1,4 +1,4 @@
-# Gremlin::Gremlin::Agent VPCConfiguration
+# Gremlin::Agent::Helm VPCConfiguration
 
 For network connectivity to Cluster inside VPC
 

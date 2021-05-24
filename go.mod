@@ -1,4 +1,4 @@
-module github.com/gremlin/CloudFormation-Resources/gremlin-gremlin-agent
+module github.com/gremlin/CloudFormation-Resources/gremlin-agent-helm
 
 go 1.16
 

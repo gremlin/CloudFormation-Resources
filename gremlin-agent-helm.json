@@ -1,5 +1,5 @@
 {
-    "typeName": "Gremlin::Gremlin::Agent",
+    "typeName": "Gremlin::Agent::Helm",
     "description": "An example resource schema demonstrating some basic constructs and validation rules.",
     "sourceUrl": "https://github.com/arunbhagyanath/qs-sysdig.git",
     "definitions": {
