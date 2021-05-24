@@ -4,7 +4,7 @@ RUN apk --no-cache add py3-pip make git zip
 
 RUN pip3 install cloudformation-cli-go-plugin
 
-COPY . /build
+COPY .. /build
 
 WORKDIR /build
 
