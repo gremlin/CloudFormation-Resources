@@ -154,7 +154,6 @@
                 "s3:GetObject",
                 "sts:AssumeRole",
                 "iam:PassRole",
-                "iam:GetPolicyVersion",
                 "ec2:CreateNetworkInterface",
                 "ec2:DescribeNetworkInterfaces",
                 "ec2:DeleteNetworkInterface",
