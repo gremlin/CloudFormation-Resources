@@ -47,11 +47,6 @@ Resources:
                   - s3:GetObject
                   - sts:AssumeRole
                   - iam:PassRole
-                  - iam:ListRolePolicies
-                  - iam:ListAttachedRolePolicies
-                  - iam:GetRole
-                  - iam:GetPolicy
-                  - iam:GetPolicyVersion
                   - ec2:CreateNetworkInterface
                   - ec2:DeleteNetworkInterface
                   - ec2:Describe*
@@ -59,6 +54,7 @@ Resources:
                   - logs:CreateLogStream
                   - logs:PutLogEvents
                   - lambda:*
+                  - cloudformation:ListExports
                 Resource: '*'
       AssumeRolePolicyDocument:
         Version: 2012-10-17
